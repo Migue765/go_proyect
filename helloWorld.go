@@ -80,6 +80,25 @@ func main() {
 	myArray2[2] = "desde Go"
 	fmt.Println(myArray2[2])
 
+	//map
+	var myMap map[string]int
+	myMap = make(map[string]int)
+	myMap["Miguel"] = 24
+	myMap["Daniel"] = 25
+	myMap["Javier"] = 43
+	fmt.Println("mapa 1", myMap)
+	fmt.Println("mapa 1 key Miguel, valor:", myMap["Miguel"])
+
+	myMap2 := make(map[string]int)
+	myMap2["Miguel"] = 23
+	myMap2["Gonzalo"] = 24
+	myMap2["Andres"] = 28
+	fmt.Println("mapa 2", myMap2)
+
+	myMap3 := map[string]int{"Andrea": 23, "Maria": 12, "Fonseca": 5}
+	fmt.Println("mapa 3", myMap3)
+
+
 	
 
 }
